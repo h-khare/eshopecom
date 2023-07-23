@@ -67,7 +67,7 @@ exports.forgetPassword = (email)=>{
                 const resetPasswordObj = await resetPassword.create({userId:user.id,userEmail:user.email,tokenValue:stringString,expireAt:expireAt})
                 if(resetPasswordObj)
                 {
-                    const currentUrl = `http://${userVerification.getLocalIP()}:5000/`;
+                    const currentUrl = `https://eshopcom.onrender.com/`;
                     const mail_option = {
                         from:'khare98939@gmail.com',
                         to:`${user.email}`,

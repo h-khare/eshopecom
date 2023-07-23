@@ -36,7 +36,7 @@ function getLocalIPs(){
 exports.sendVerificaitonEmail=({id,email})=>{
     return new Promise(async (resolve,reject)=>{
         try {
-            const currentUrl = `http://${getLocalIPs()}:5000/`
+            const currentUrl = `https://eshopcom.onrender.com/`
             const uniqueString = uuid4() +id;
             console.log(uniqueString)
             const mail_option = {
