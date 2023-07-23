@@ -1,6 +1,9 @@
 {
-  "development":{
-    "url": "postgres://harshkhare989:7G9Ev5cI5YYgfxEerMd0os0IuYQqk2fL@dpg-ciun7qdiuiedpv0uhd80-a/ecommerce_qrev",
+  "development": {
+    "username": "harshkhare989",
+    "password": "7G9Ev5cI5YYgfxEerMd0os0IuYQqk2fL",
+    "database": "ecommerce_qrev_dev",
+    "host": "dpg-ciun7qdiuiedpv0uhd80-a.oregon-postgres.render.com",
     "dialect": "postgres",
     "logging": false,
     "dialectOptions": {
@@ -8,10 +11,12 @@
         "rejectUnauthorized": false
       }
     }
-    
   },
   "test": {
-    "url": "postgres://harshkhare989:7G9Ev5cI5YYgfxEerMd0os0IuYQqk2fL@dpg-ciun7qdiuiedpv0uhd80-a/ecommerce_qrev",
+    "username": "harshkhare989",
+    "password": "7G9Ev5cI5YYgfxEerMd0os0IuYQqk2fL",
+    "database": "ecommerce_qrev_test",
+    "host": "dpg-ciun7qdiuiedpv0uhd80-a.oregon-postgres.render.com",
     "dialect": "postgres",
     "logging": false,
     "dialectOptions": {
@@ -21,7 +26,10 @@
     }
   },
   "production": {
-    "url": "postgres://harshkhare989:7G9Ev5cI5YYgfxEerMd0os0IuYQqk2fL@dpg-ciun7qdiuiedpv0uhd80-a/ecommerce_qrev",
+    "username": "harshkhare989",
+    "password": "7G9Ev5cI5YYgfxEerMd0os0IuYQqk2fL",
+    "database": "ecommerce_qrev_prod",
+    "host": "dpg-ciun7qdiuiedpv0uhd80-a.oregon-postgres.render.com",
     "dialect": "postgres",
     "logging": false,
     "dialectOptions": {
