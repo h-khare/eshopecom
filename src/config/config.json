@@ -1,9 +1,6 @@
 {
-  "development": {
-    "username": "harshkhare989",
-    "password": "7G9Ev5cI5YYgfxEerMd0os0IuYQqk2fL",
-    "database": "ecommerce_qrev",
-    "host": "dpg-ciun7qdiuiedpv0uhd80-a",
+  "development":{
+    "url": "postgres://harshkhare989:7G9Ev5cI5YYgfxEerMd0os0IuYQqk2fL@dpg-ciun7qdiuiedpv0uhd80-a/ecommerce_qrev",
     "dialect": "postgres",
     "logging": false,
     "dialectOptions": {
@@ -11,6 +8,7 @@
         "rejectUnauthorized": false
       }
     }
+    
   },
   "test": {
     "username": "root",
