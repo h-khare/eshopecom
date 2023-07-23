@@ -27,7 +27,7 @@
 // //     console.log(error)
 // //     console.log(info)
 // // })
-// const { Sequelize } = require('sequelize');
+const { Sequelize } = require('sequelize');
 
 const sequelize = new Sequelize('ecommerce_qrev', 'harshkhare989', '7G9Ev5cI5YYgfxEerMd0os0IuYQqk2fL', {
   host: 'dpg-ciun7qdiuiedpv0uhd80-a.oregon-postgres.render.com', // Replace with your PostgreSQL server host
