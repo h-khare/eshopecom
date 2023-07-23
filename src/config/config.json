@@ -2,8 +2,8 @@
   "development": {
     "username": "harshkhare989",
     "password": "7G9Ev5cI5YYgfxEerMd0os0IuYQqk2fL",
-    "database": "ecommerce_qrev_dev",
-    "host": "dpg-ciun7qdiuiedpv0uhd80-a.oregon-postgres.render.com",
+    "database": "ecommerce_qrev",
+    "host": "dpg-ciun7qdiuiedpv0uhd80-a",
     "dialect": "postgres",
     "logging": false,
     "dialectOptions": {
@@ -15,8 +15,8 @@
   "test": {
     "username": "harshkhare989",
     "password": "7G9Ev5cI5YYgfxEerMd0os0IuYQqk2fL",
-    "database": "ecommerce_qrev_test",
-    "host": "dpg-ciun7qdiuiedpv0uhd80-a.oregon-postgres.render.com",
+    "database": "ecommerce_qrev",
+    "host": "dpg-ciun7qdiuiedpv0uhd80-a",
     "dialect": "postgres",
     "logging": false,
     "dialectOptions": {
@@ -28,8 +28,8 @@
   "production": {
     "username": "harshkhare989",
     "password": "7G9Ev5cI5YYgfxEerMd0os0IuYQqk2fL",
-    "database": "ecommerce_qrev_prod",
-    "host": "dpg-ciun7qdiuiedpv0uhd80-a.oregon-postgres.render.com",
+    "database": "ecommerce_qrev",
+    "host": "dpg-ciun7qdiuiedpv0uhd80-a",
     "dialect": "postgres",
     "logging": false,
     "dialectOptions": {
