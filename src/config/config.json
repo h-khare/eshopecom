@@ -1,0 +1,29 @@
+{
+  "development": {
+    "username": "harshkhare989",
+    "password": "7G9Ev5cI5YYgfxEerMd0os0IuYQqk2fL",
+    "database": "ecommerce_qrev",
+    "host": "dpg-ciun7qdiuiedpv0uhd80-a.oregon-postgres.render.com",
+    "dialect": "postgres",
+    "logging": false,
+    "dialectOptions": {
+      "ssl": {
+        "rejectUnauthorized": false
+      }
+    }
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": "",
+    "database": "practice",
+    "host": "localhost",
+    "dialect": "mysql"
+  }
+}
